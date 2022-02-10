@@ -8,7 +8,7 @@ export const themes: Themes = {
     primary: { hex: '#b6509e', rgb: [182, 80, 158] },
     secondary: { hex: '#2ebac6', rgb: [46, 186, 198] },
     darkBlue: { hex: '#131313', rgb: [19, 19, 19] },
-    textDarkBlue: { hex: '#131313', rgb: [56, 61, 81] },
+    textDarkBlue: { hex: '#131313', rgb: [19, 19, 19] },
     lightBlue: { hex: '#8d8f99', rgb: [141, 143, 153] },
     red: { hex: '#de5959', rgb: [222, 89, 89] },
     orange: { hex: '#ffac4d', rgb: [255, 172, 77] },
