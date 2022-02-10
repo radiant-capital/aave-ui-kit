@@ -20,7 +20,7 @@
   &__name,
   &__dollar {
     font-size: $large;
-    color: $darkBlue;
+    color: $black;
     @include respond-to(xl) {
       font-size: $regular;
     }
@@ -81,6 +81,6 @@
 .TokenIcon__onWhiteBackground {
   .TokenIcon__name,
   .TokenIcon__dollar {
-    color: $darkBlue;
+    color: $black;
   }
 }

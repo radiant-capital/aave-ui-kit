@@ -13,6 +13,7 @@ interface DropdownWrapperProps {
   verticalPosition?: 'bottom' | 'top';
   horizontalPosition?: 'left' | 'right' | 'center';
   contentId?: string;
+  withArrow?: boolean;
 }
 
 export default function DropdownWrapper({
@@ -25,6 +26,7 @@ export default function DropdownWrapper({
   verticalPosition,
   horizontalPosition,
   contentId,
+  withArrow,
 }: DropdownWrapperProps) {
   const wrapperRef = useRef(null);
 
@@ -52,6 +54,15 @@ export default function DropdownWrapper({
       ref={wrapperRef}
     >
       {buttonComponent}
+
+      {withArrow ? (
+        <i
+          className={classNames('DropdownWrapper__icon', {
+            DropdownWrapper__icon__down: !visible,
+            DropdownWrapper__icon__up: visible,
+          })}
+        />
+      ) : null}
 
       <div
         className={classNames(
