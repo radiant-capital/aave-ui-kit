@@ -3,8 +3,8 @@ import { Themes } from './types';
 // eslint-disable-next-line import/prefer-default-export
 export const themes: Themes = {
   default: {
-    headerBg: { hex: '#2b2d3c', rgb: [43, 45, 60] },
-    mainBg: { hex: '#f1f1f3', rgb: [241, 241, 243] },
+    headerBg: { hex: '#131313', rgb: [19, 19, 19] },
+    mainBg: { hex: '#f5f6fa', rgb: [241, 241, 243] },
     primary: { hex: '#b6509e', rgb: [182, 80, 158] },
     secondary: { hex: '#2ebac6', rgb: [46, 186, 198] },
     darkBlue: { hex: '#383d51', rgb: [56, 61, 81] },
@@ -12,7 +12,8 @@ export const themes: Themes = {
     lightBlue: { hex: '#8d8f99', rgb: [141, 143, 153] },
     red: { hex: '#de5959', rgb: [222, 89, 89] },
     orange: { hex: '#ffac4d', rgb: [255, 172, 77] },
-    green: { hex: '#79c982', rgb: [121, 201, 130] },
+    green: { hex: '#aceed9', rgb: [121, 201, 130] },
+    purple: { hex: '#7159ff', rgb: [113, 89, 255] },
     white: { hex: '#ffffff', rgb: [255, 255, 255] },
     whiteElement: { hex: '#ffffff', rgb: [255, 255, 255] },
     whiteItem: { hex: '#ffffff', rgb: [255, 255, 255] },
@@ -32,6 +33,7 @@ export const themes: Themes = {
     red: { hex: '#de5959', rgb: [222, 89, 89] },
     orange: { hex: '#ffac4d', rgb: [255, 172, 77] },
     green: { hex: '#79c982', rgb: [121, 201, 130] },
+    purple: { hex: '#7159ff', rgb: [113, 89, 255] },
     white: { hex: '#f1f1f3', rgb: [241, 241, 243] },
     whiteElement: { hex: '#383d51', rgb: [56, 61, 81] },
     whiteItem: { hex: '#2b2d3c', rgb: [43, 45, 60] },

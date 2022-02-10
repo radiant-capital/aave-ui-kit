@@ -10,22 +10,30 @@
     content: '';
     position: absolute;
     left: 0;
-    top: 0;
+    top: 1px;
     width: 50%;
     height: 100%;
     transition: all 0.4s ease;
-    padding: 4px 2px;
-    span {
+    &__background {
       display: block;
-      border-radius: 1px;
       width: 100%;
-      height: 100%;
+      height: calc(100% - 2px);
       box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+
+      &__start {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+
+      &__finish {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
     }
   }
 
   &__inner {
-    border-radius: 1px;
+    border-radius: 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,9 +53,8 @@
       display: inline-block;
       margin: 0;
       span {
+        color: #131313;
         display: block;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
       }
     }
   }

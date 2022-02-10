@@ -34,6 +34,8 @@ export default function LabeledSwitch({
     }
   };
 
+  const transformX = value ? (width || 0) / 2 - 2 : 2;
+
   return (
     <div
       className={classNames('LabeledSwitch', className, {
@@ -45,9 +47,14 @@ export default function LabeledSwitch({
       <div className="LabeledSwitch__inner">
         <div
           className="LabeledSwitch__pointer"
-          style={{ transform: `translateX(${value ? (width || 0) / 2 - 2 : 2}px)` }}
+          style={{ transform: `translateX(${transformX}px)` }}
         >
-          <span />
+          <span
+            className={classNames('LabeledSwitch__pointer__background', {
+              LabeledSwitch__pointer__background__start: transformX === 2,
+              LabeledSwitch__pointer__background__finish: transformX !== 2,
+            })}
+          />
         </div>
 
         <button

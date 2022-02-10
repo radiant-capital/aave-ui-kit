@@ -10,6 +10,7 @@ export interface Themes {
     red: { hex: string; rgb: number[] };
     orange: { hex: string; rgb: number[] };
     green: { hex: string; rgb: number[] };
+    purple: { hex: string; rgb: number[] };
     white: { hex: string; rgb: number[] };
     whiteElement: { hex: string; rgb: number[] };
     whiteItem: { hex: string; rgb: number[] };
