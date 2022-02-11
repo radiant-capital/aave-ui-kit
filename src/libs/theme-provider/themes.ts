@@ -10,7 +10,7 @@ export const themes: Themes = {
     darkBlue: { hex: '#131313', rgb: [19, 19, 19] },
     textDarkBlue: { hex: '#131313', rgb: [19, 19, 19] },
     lightBlue: { hex: '#8d8f99', rgb: [141, 143, 153] },
-    red: { hex: '#de5959', rgb: [222, 89, 89] },
+    red: { hex: '#ff46a5', rgb: [255, 70, 165] },
     orange: { hex: '#ffac4d', rgb: [255, 172, 77] },
     green: { hex: '#aceed9', rgb: [121, 201, 130] },
     purple: { hex: '#7159ff', rgb: [113, 89, 255] },
