@@ -15,30 +15,14 @@
   font-size: $small;
   backface-visibility: hidden;
   transform: translateZ(0);
-  &:after {
-    content: '';
-    border-radius: $borderRadius;
-    filter: blur(4px);
-    transition: $transition;
-    background: inherit;
-    position: absolute;
-    z-index: 1;
-    opacity: 0;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+  background: #7159ff;
   &:hover {
-    &:after {
-      opacity: 1;
-    }
+    background: #3cecd1;
+    color: #131313;
   }
+
   &:active {
     opacity: 0.8;
-    &:after {
-      opacity: 0;
-    }
   }
   &:disabled {
     cursor: not-allowed;
