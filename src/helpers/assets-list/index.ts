@@ -14,6 +14,7 @@ export interface Asset {
   shortSymbol?: string;
 }
 
+// todo:pavlik ask Vitaly about the assets list and their colors
 export const assetsList: Asset[] = [
   {
     name: 'Aave',
