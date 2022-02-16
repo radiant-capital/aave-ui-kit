@@ -51,18 +51,16 @@
     min-height: 40px;
   }
   &__medium {
-    width: 160px;
+    width: 120px;
     min-height: 40px;
-    font-size: $regular;
+    font-size: $medium;
     @include respond-to(xl) {
-      width: 120px;
-      min-height: 32px;
-      font-size: $small;
+
     }
   }
   &__normal,
   &__small {
-    font-size: $extraSmall;
+    font-size: $small;
   }
   &__normal {
     width: 90px;
