@@ -22,6 +22,7 @@ import matic from './matic.svg';
 import mkr from './mkr.svg';
 import pax from './pax.svg';
 import rai from './rai.svg';
+import rdnt from './rdnt.svg';
 import ren from './ren.svg';
 import renfil from './renfil.svg';
 import rep from './rep.svg';
@@ -54,6 +55,7 @@ interface Images {
 }
 
 export default {
+  rdnt,
   aave,
   ampl,
   busd,
