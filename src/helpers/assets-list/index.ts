@@ -681,6 +681,14 @@ export const assetsList: Asset[] = [
     icon: icons.wone,
     aIcon: icons.awone,
   },
+  // arbitrum
+  {
+    name: 'RDNT',
+    symbol: 'RDNT',
+    color: '#7159ff',
+    icon: icons.rdnt,
+    aIcon: icons.rdnt,
+  },
 ];
 
 export const getAssetInfoFactory = (_assetsList: Asset[]) => (_assetSymbol: string): Asset => {
