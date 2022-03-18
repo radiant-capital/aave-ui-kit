@@ -689,6 +689,27 @@ export const assetsList: Asset[] = [
     icon: icons.rdnt,
     aIcon: icons.rdnt,
   },
+  {
+    name: 'USDT Coin',
+    symbol: 'RUSDT',
+    color: '#4db196',
+    icon: icons.usdt,
+    aIcon: aIcons.ausdt,
+  },
+  {
+    name: 'ChainLink',
+    symbol: 'RLINK',
+    color: '#2463ff',
+    icon: icons.link,
+    aIcon: aIcons.alink,
+  },
+  {
+    name: 'WBTC Coin',
+    symbol: 'RWBTC',
+    color: '#ff7600',
+    icon: icons.wbtc,
+    aIcon: aIcons.awbtc,
+  },
 ];
 
 export const getAssetInfoFactory = (_assetsList: Asset[]) => (_assetSymbol: string): Asset => {
