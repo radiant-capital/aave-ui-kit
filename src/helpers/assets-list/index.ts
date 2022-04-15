@@ -692,6 +692,7 @@ export const assetsList: Asset[] = [
   {
     name: 'USDT Coin',
     symbol: 'RUSDT',
+    formattedSymbol: 'rUSDT',
     color: '#4db196',
     icon: icons.usdt,
     aIcon: aIcons.ausdt,
@@ -699,6 +700,7 @@ export const assetsList: Asset[] = [
   {
     name: 'ChainLink',
     symbol: 'RLINK',
+    formattedSymbol: 'rLINK',
     color: '#2463ff',
     icon: icons.link,
     aIcon: aIcons.alink,
@@ -706,6 +708,7 @@ export const assetsList: Asset[] = [
   {
     name: 'WBTC Coin',
     symbol: 'RWBTC',
+    formattedSymbol: 'rWBTC',
     color: '#ff7600',
     icon: icons.wbtc,
     aIcon: aIcons.awbtc,
