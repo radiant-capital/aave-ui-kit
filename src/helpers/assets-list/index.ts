@@ -62,8 +62,8 @@ export const assetsList: Asset[] = [
     name: 'Wrapped ETH',
     symbol: 'WETH',
     color: '#000000',
-    icon: icons.weth,
-    aIcon: aIcons.aweth,
+    icon: icons.eth,
+    aIcon: aIcons.aeth,
   },
   {
     name: 'Kyber Legacy',
