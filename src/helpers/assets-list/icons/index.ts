@@ -22,7 +22,7 @@ import matic from './matic.svg';
 import mkr from './mkr.svg';
 import pax from './pax.svg';
 import rai from './rai.svg';
-import rdnt from './rdnt.svg';
+import rdnt from './rdnt-2.svg';
 import ren from './ren.svg';
 import renfil from './renfil.svg';
 import rep from './rep.svg';
